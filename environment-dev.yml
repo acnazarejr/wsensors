@@ -1,0 +1,51 @@
+name: wsensors
+channels:
+- conda-forge
+- defaults
+dependencies:
+# Python version
+- python=3.7
+# Config packages
+#- click
+#- cerberus
+# Scientific packages
+#- numpy
+#- scipy
+#- scikit-learn
+#- h5py
+# [DEV] Documentation packages
+#- sphinx
+# [DEV] Automatization packages
+#- fabric3
+- pip:
+  # Util packages
+#  - simplejson
+#  - ciso8601
+  # Log packages
+#  - logbook
+#  - tqdm==4.15.0
+#  - keras-tqdm
+#  - terminaltables
+  # DL packages
+#  - keras==2.1.5
+#  - tensorflow==1.4.0
+  # Visualization packages
+#  - colorama
+#  - dash
+#  - dash-renderer
+#  - dash-html-components
+#  - dash-core-components==0.13.0rc8
+#  - plotly
+  # [DEV] Testing packages
+  - pytest
+  - pylint
+  - pytest-pylint
+  - mypy
+  # [DEV] Automatization packages
+#  - fabtools-python
+  # [DEV] Documentation packages
+#  - recommonmark
+#  - sphinx_rtd_theme
+#  - sphinx-autobuild
+#  - restructuredtext-lint
+#  - sphinx-autodoc-typehints

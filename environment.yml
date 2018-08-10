@@ -1,0 +1,7 @@
+name: wsensors
+channels:
+- conda-forge
+- defaults
+dependencies:
+# Python version
+- python=3.7
