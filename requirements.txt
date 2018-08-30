@@ -1,0 +1,5 @@
+click
+pytest
+pylint
+pytest-pylint
+mypy

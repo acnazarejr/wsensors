@@ -1,4 +1,4 @@
-"""Top-level package for SensorsID."""
+"""Top-level package for wsensors.sensorid"""
 
 __author__ = 'Antonio C. Nazare'
 __email__ = 'antonio.nazare@dcc.ufmg.br'
